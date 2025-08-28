@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  height: 50px;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+ul{
+  display: flex;
+  gap: 30px;
+  
+}
+ul > a{
+  text-transform: capitalize;
+  font-size:18px;
+  color: white;
+  font-weight: bold;
+  &:active{
+    color: red;
+  }
+}
+
+.userMain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  background-color: rgb(75, 74, 74);
+}
+.userMain > .card{
+  border: 2px solid black;
+  height: 400px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 6px green;
+  background-color: black;
+  color: white;
+  text-align: center;
+  transition:all 0.3s ease-in;
+  &:hover{
+    box-shadow: 4px 6px 8px green;
+    height: 420px;
+    width: 470px;
+    cursor: pointer;
+    background-color: rgb(75, 74, 74);
+  }
+}
+
+img{
+  height:150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 4px solid green;
+  transition:all 0.3s ease-in;
+  &:hover{
+    height: 180px;
+    width: 180px;
+    border: 6px solid green;
+  }
+}
+
+.actorDetailsMain{
+  height: calc(100vh - 50px) ;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+}
+.actorDetailsCard{
+  height: 70vh;
+  width: 85vw;
+  background-color: rgb(236, 236, 131);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+button{
+  height: 70px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  
+}
