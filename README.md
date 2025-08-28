@@ -1,12 +1,77 @@
-# React + Vite
+Dynamic Routing Example (React)
+📌 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React application showcasing the use of React Router with dynamic routing. It includes a navigation bar, a Users page with a list of users, and a detailed view for each user. The goal of this project is to demonstrate core React features such as components, props, routing, and dynamic routing, along with some CSS styling for a clean UI.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Click here to view the project
 
-## Expanding the ESLint configuration
+✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Navbar with navigation (Home & Users)
+
+Users list page displaying users with descriptions
+
+Dynamic user details page (navigates to /users/:id)
+
+React Components used for modular design
+
+Props passed to render reusable content
+
+React Router & Dynamic Routing for navigation
+
+Basic CSS styling for a clean and simple UI
+
+🛠️ Tech Stack
+
+Frontend: React.js, React Router
+
+Styling: CSS
+
+Deployment: Netlify
+
+📂 Project Structure
+src/
+ ├── components/     # Reusable components (Navbar, UserCard, etc.)
+ ├── pages/          # Pages (Home, Users, UserDetails)
+ ├── App.js          # Main app with routing
+ ├── index.js        # Entry point
+
+▶️ Getting Started
+
+Clone the repo
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+
+Install dependencies
+
+npm install
+
+
+Run the app
+
+npm start
+
+
+Explore
+
+Go to /users to see the list of users.
+
+Click Description to view full details of a selected user.
+
+📖 Learning Highlights
+
+Using React Components and Props
+
+Implementing Routing & Dynamic Routing in React
+
+Managing navigation with React Router
+
+Adding basic CSS styling for better UI
+
+🌐 Deployment
+
+Deployed on Netlify for live demo access.
