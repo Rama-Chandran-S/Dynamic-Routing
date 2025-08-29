@@ -24,19 +24,23 @@ along with some CSS styling for a clean UI.
 - **Deployment:** Netlify  
 
 ## 📂 Project Structure
-```bash
+
 src/
+
  ├── components/     # Reusable components (Navbar, UserCard, etc.)
+ 
  ├── pages/          # Pages (Home, Users, UserDetails)
+ 
  ├── App.js          # Main app with routing
+ 
  ├── index.js        # Entry point
 
 ##📖 Learning Highlights
 
-Using React Components and Props
-Implementing Routing & Dynamic Routing in React
-Managing navigation with React Router
-Adding basic CSS styling for better UI
+- Using React Components and Props
+- Implementing Routing & Dynamic Routing in React
+- Managing navigation with React Router
+- Adding basic CSS styling for better UI
 
 ##🌐 Deployment
 
